@@ -64,14 +64,14 @@
   h2 {
       font-size: 24px;
       text-transform: uppercase;
-      color: #303030;
+      color: #a6a6a6;
       font-weight: 600;
       margin-bottom: 30px;
   }
   h4 {
       font-size: 19px;
       line-height: 1.375em;
-      color: #303030;
+      color: #a6a6a6;
       font-weight: 400;
       margin-bottom: 30px;
   }  
@@ -86,6 +86,9 @@
   }
   .bg-grey {
       background-color: #f6f6f6;
+  }
+  .bg-grayer {
+      background-color: #e6e6e6;
   }
   .logo-small {
       color: #fff;
@@ -257,9 +260,9 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li>
+		<li><a href="#portfolio">PORTFOLIO</a></li>
+        <!-- <li><a href="#services">SERVICES</a></li>         
+        <li><a href="#pricing">PRICING</a></li>-->
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
@@ -272,13 +275,13 @@
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h2 style="text-align: center;">Company Overview</h2><br>
+      <h2 style="text-align: center;">About Jose</h2><br>
       
-      <p style="font-size:16px; line-height:40px"> Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus diam, a scelerisque eros convallis accumsan. Maecenas vehicula egestas venenatis. Duis massa elit, auctor non pellentesque vel, aliquet sit amet pharetra erat</p>
-      <br><button class="btn btn-default btn-lg pull-right">Laarn more </button>
+      <p style="font-size:16px; line-height:40px">A proud member of the Fightin' Texas Aggie Class of 2017. Technology and fitness are my passions, so this past year i've made it a goal to merge the two world's. I've been working on personal projects and refining my skills as a developer, but feel it is time to grow with a company that shares the same passion for creativity and innovation. Therefore, explore this page and see what i've been up to!</p>
+      <!--<br><button class="btn btn-default btn-lg pull-right">Learn more </button>-->
     </div>
     <div class="col-sm-4">
-      <img src="images/Camera Roll/notebook-871056_1280.png">
+      <img src="images/Camera Roll/me.png">
     </div>
   </div>
 </div>
@@ -289,20 +292,18 @@
      <img src="images/Camera Roll/iphone5.png" style="width: 80%;">
     </div>
     <div class="col-sm-8">
-      <h2> Mobile Friendly And Responsive</h2>
-      <h4> Responsive Design</h4>
-      <p> Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus diam, a scelerisque eros convallis accumsan. Maecenas vehicula egestas venenatis. Duis massa elit, auctor non pellentesque vel, aliquet sit amet pharetra erat.</p> 
-      
-     
-     
-           <h4> Mobile Friendly </h4>
-      <p> Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus diam, a scelerisque eros convallis accumsan. Maecenas vehicula egestas venenatis. Duis massa elit, auctor non pellentesque vel, aliquet sit amet pharetra erat.</p>
-
+      <h2> Technical Expertise</h2>
+      <h4> Java </h4>
+		<p> *Insert Description Here </p> 
+      <h4> Mobile Development </h4>
+		<p> *Insert Description Here </p> 
+	  <h4> Databases </h4>
+		<p> *Insert Description Here </p> 
     </div>
   </div>
 </div>
 
-<!-- Container (Services Section) -->
+<!-- Container (Services Section) 
 <div id="services" class="container-fluid text-center">
   <h2>SERVICES</h2>
   
@@ -328,9 +329,10 @@
  
   </div>
 </div>
+-->
 
 <!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
+<div id="portfolio" class="container-fluid text-center bg-grayer">
   <h2>Projects</h2>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
@@ -391,7 +393,7 @@
   
 </div>
 
-<!-- Container (Pricing Section) -->
+<!-- Container (Pricing Section) 
 <div id="pricing" class="container-fluid">
   <div class="text-center">
     <h2>Pricing</h2>
@@ -457,6 +459,8 @@
     </div>    
   </div>
 </div>
+-->
+
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
@@ -465,7 +469,7 @@
     <div class="col-sm-5">
       <p> Contact info:</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> San Antonio, TX</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Linkedin</p>
+      <p><a href="www.linkedin.com/in/josemcolmenero"><span class="glyphicon glyphicon-user"></span> Linkedin</a></p>
       <p><span class="glyphicon glyphicon-envelope"></span> email@josecolmenero.com</p>
     </div>
     <div class="col-sm-7 slideanim">
@@ -487,9 +491,10 @@
   </div>
 </div>
 
+<!--
 <div id="googleMap" style="height:400px;width:100%;"></div>
-
-<!-- Add Google Maps -->
+-->
+<!-- Add Google Maps 
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 <script>
 var myCenter = new google.maps.LatLng(21.0000 , 78.0000);
@@ -514,6 +519,8 @@ marker.setMap(map);
 
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
+-->
+
 
 <footer style="text-align:center; color: white; background-color:  rgba(0,33,65);"> 
 <p style="padding-top: 50px;"><strong> Share With Your Friends</strong></p> 
